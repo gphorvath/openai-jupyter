@@ -25,4 +25,4 @@ make install # installs dependencies from pyproject.toml
 
 Run `src/scripts/initialize.py` to setup your first assistant, file, and vector store.
 
-Checkout the Jupyter Notebook at `src/main.py` to use the file_search capability of the OpenAI API.
+Checkout the Jupyter Notebook at `src/notebooks/*` to use various endpoints of the OpenAI API.

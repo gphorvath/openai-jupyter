@@ -10,7 +10,7 @@ client = OpenAI(
 
 # Upload a file and create a vector store
 create_file_response = client.files.create(
-    file=Path("data/test_file.md"),
+    file=Path("data/jack_and_diane.md"),
     purpose="assistants",
 )
 
