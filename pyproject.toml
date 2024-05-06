@@ -1,0 +1,10 @@
+[project]
+name = "openai-jupyter"
+version = "0.1.0"
+description = "Testing out OpenAI API in Jupyter"
+
+dependencies = [
+    "openai == 1.21.1",
+    "ipykernel",
+]
+requires-python = "~=3.11"
