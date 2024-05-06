@@ -16,4 +16,6 @@ repos:
     rev: v0.4.3
     hooks:
       - id: ruff # Run the linter.
+        types_or: [ python, pyi, jupyter ]
       - id: ruff-format # Run the formatter.
+        types_or: [ python, pyi, jupyter ]
